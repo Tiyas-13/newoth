@@ -1,0 +1,48 @@
+.header{
+	background-color: black;
+	width:100%;
+	height: 10vh;
+	padding: 0px;
+}
+.logo1,.logo2,.header{
+	display: inline-table;
+}
+.logo1,.logo2{
+	background-color: yellow;
+	width:10%;
+	height: 10vh;
+	
+}
+#background-img{
+	background-color: blue; 
+	padding: 15px;
+	border: 10px;
+	width: 80%;
+	float: center;
+	height: 90vh;
+	box-sizing: border-box;
+	position: relative;
+	margin:5vh 10vw;
+}
+#name{
+	background-color: red ;
+	padding: 15px;
+	border: 20px;
+	width: 60%;
+	float: center;
+	height: 30vh;
+	box-sizing: border-box;
+	position: relative;
+	margin:10vh 15vw;
+}
+
+.button{
+	display: block;
+	width: 100%;
+    min-width: 8vw;
+    max-width: 8vw;
+    height: 8vh;
+    margin: 15vh 32vw;
+    text-align: center;
+    font-size: 1vw;
+}
