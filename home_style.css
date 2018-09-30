@@ -1,5 +1,5 @@
 body{
-	overflow: hidden;
+	
 	background-repeat: no-repeat;
 
 }
@@ -20,7 +20,7 @@ body{
 }
 #background-img{
 	background-color: blue; 
-	padding: 15px;
+	
 	border: 10px;
 	width: 80%;
 	float: center;
@@ -28,31 +28,39 @@ body{
 	box-sizing: border-box;
 	position: relative;
 	margin:5vh 10vw;
+	margin-bottom: 20vh;
+}
+#background-img img{
+	width:100%;
+	height:inherit;
 }
 .button1{
-	display: block;
+	display:block;
+	position:absolute;
 	width: 100%;
     min-width: 8vw;
     max-width: 8vw;
     height: 8vh;
-    margin: 50vh 32vw;
-    margin-bottom:4vh;
+    margin: -45vh 34vw;
     text-align: center;
     font-size: 1vw;
+	
 }
 .button2{
 	display: block;
+	position:absolute;
 	width: 100%;
     min-width: 8vw;
     max-width: 8vw;
     height: 8vh;
-    margin: 0vh 32vw;
+    margin: -35vh 34vw;
     text-align: center;
     font-size: 1vw;
 }
+
 @media only screen and (max-width: 700px){
 	body{
-	overflow: hidden;
+	
 	background-repeat: no-repeat;
 	
 }
@@ -74,8 +82,7 @@ body{
 }
 #background-img{
 	background-color: blue; 
-	padding: 15px 15px;
-	border: 10px;
+	
 	width: 80%;
 	float: center;
 	height: 50vh;
@@ -83,32 +90,38 @@ body{
 	position: relative;
 	margin:5vh 10vw;
 }
+#background-img img{
+	width:100%;
+	height:inherit;
+}
 	.button1{
 	display: block;
+	position: absolute;
 	width: 100%;
     min-width: 15vw;
     max-width: 5vw;
     height: 2vh;
-    margin: 30vh 28vw;
+    margin: -35vh 28vw;
     margin-bottom:3%;
     text-align: center;
-    font-size: 0.5vh;
+    font-size: 1vh;
     
 }
 .button2{
 	display: block;
+	position: absolute;
 	width: 100%;
     min-width: 15vw;
     max-width: 5vw;
     height: 2vh;
-    margin: 0vh 28vw;
+    margin: -25vh 28vw;
     text-align: center;
-    font-size: 0.5vh;
+    font-size: 1vh;
 }
 }
 @media only screen and (max-width: 900px){
 	body{
-	overflow: hidden;
+	
 	background-repeat: no-repeat;
 	
 }
@@ -130,7 +143,7 @@ body{
 }
 #background-img{
 	background-color: blue; 
-	padding: 15px 15px;
+	
 	border: 10px;
 	width: 80%;
 	float: center;
@@ -139,16 +152,20 @@ body{
 	position: relative;
 	margin:5vh 10vw;
 }
+#background-img img{
+	width:100%;
+	height:inherit;
+}
 	.button1{
 	display: block;
 	width: 100%;
     min-width: 12vw;
     max-width: 5vw;
     height: 3vh;
-    margin: 37vh 30vw;
+    margin: -30vh 32vw;
     margin-bottom:3%;
     text-align: center;
-    font-size: 0.5vh;
+    font-size: 1vh;
     
 }
 .button2{
@@ -157,8 +174,8 @@ body{
     min-width: 12vw;
     max-width: 5vw;
     height: 3vh;
-    margin: 0vh 30vw;
+    margin: -25vh 32vw;
     text-align: center;
-    font-size: 0.5vh;
+    font-size: 1vh;
 }
 }
