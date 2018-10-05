@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rancho');
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/homebg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+
+.oth-question{
+  background: url("../assets/ques.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 40px;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  align-items: center;
+  color: brown;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  width:100vw;
+  height: 20vh;
+}
+.accuracy,.ahead{
+  display: flex;
+  font-family: Rancho;
+  font-size: 30px;
+  color: white;
+}
+.accuracy{
+  margin-top: -17vh;
+  margin-left: 4vw;
+}
+.ahead{
+  margin-top: -17vh;
+  margin-left: 60vw;
+}
+@media only screen and (max-width: 700px){
+  html, body {
+  width: 100vw;
+  height: 100vh;
+  /*overflow: hidden;*/
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/homebg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top:20vh;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+
+.oth-question{
+  background: url("../assets/ques.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 30vh;
+  margin: 20px;
+  display: flex;
+  width: 90vw;
+  height: 100%;
+  align-items: top;
+  color: brown;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height: 20vh;
+}
+.accuracy,.ahead{
+  display: flex;
+  font-family: Rancho;
+  font-size: 30px;
+  color: white;
+}
+.accuracy{
+  margin-top: -55vh;
+  margin-left: 8vw;
+}
+.ahead{
+  margin-top: -5vh;
+  margin-left: 8vw;
+}
+}

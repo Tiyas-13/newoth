@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rancho');
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/homebg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+  .oth-logo {
+    background: url(../assets/oth_text3.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+  }
+  .oth-rules {
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: left;
+    color: white;
+    font-family: Rancho;
+    font-size: 24px;
+}
+.sign-in_btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text {
+    display: flex;
+    margin-left: 50vw;
+    margin-top: -30vh;
+    margin-right: 0px;
+    font-size: 50px;
+    color: white;
+    font-family: Rancho;
+}
+.google {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: -30vh;
+}
+.facebook {
+    display: flex;
+    margin-left: 5px;
+    margin-top: -30vh;
+}
+.google img{
+  height: 40px; 
+  width: 60px;
+}
+.facebook img{
+  height: 40px; 
+  width: 60px;
+}
+
+@media only screen and (max-width: 700px){
+ html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  body{
+  background: url("../assets/homebg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  /*margin-top: 50px;*/
+}
+.oth-logo {
+  background: url("../assets/oth_text3.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  width: 70%;
+  height: 80%;
+}
+
+.oth-rules{
+  margin: -15vh;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: top;
+  color: white;
+  font-family: Rancho;
+  font-size: 2vh;
+}
+.sign-in_btns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.text{
+  display: flex;
+  margin-left: 15vw;
+  margin-top: -25vh;
+  margin-right: 0px;
+  font-size: 30px;
+  color: white;
+  font-family: Rancho;
+}
+.google{
+  display:flex;
+  margin-left: 5vw;
+  margin-top: -25vh; 
+}
+.facebook{
+  display:flex;
+  margin-left:5px;
+  margin-top: -25vh;
+}
+.google img{
+  height: 20px; 
+  width: 30px;
+}
+.facebook img{
+  height: 20px; 
+  width: 30px;
+}
+}
+
+/*@media only screen and (max-width: 960px){
+  html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/homebg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: top;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+  /*.oth-logo {
+    background: url(../assets/oth_text3.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 15px;
+    display: flex;
+    width: 55%;
+    height: 75%;
+  }
+  .oth-rules {
+    
+    margin: 20px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    color: white;
+    font-family: Rancho;
+    font-size: 24px;
+}
+.sign-in_btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text {
+    display: flex;
+    margin-left: 20vw;
+    margin-top: -30vh;
+    margin-right: 0px;
+    font-size: 50px;
+    color: white;
+    font-family: Rancho;
+}
+.google {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: -30vh;
+}
+.facebook {
+    display: flex;
+    margin-left: 5px;
+    margin-top: -30vh;
+}
+.google img{
+  height: 40px; 
+  width: 60px;
+}
+.facebook img{
+  height: 40px; 
+  width: 60px;
+}
+}
+
