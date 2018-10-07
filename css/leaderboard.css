@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rancho');
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/forest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 50vw;
+  height: 80vh;
+  align-items: top;
+  justify-content: top;
+  margin-left: 25vw;
+  margin-top: 12vh;
+  /*opacity: 0.2;*/
+  background: rgba(205,255,255,0.1)
+}
+
+.rank{
+  display: flex;
+  margin-left: 1vw;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Rancho;
+  color:white;
+  /*background: rgba(205,206,255,0.1)*/
+}
+.name,.score,.time,.badges{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Rancho;
+  color:white;
+}
+/*.score{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Rancho;
+  color:white;
+}
+.time{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Rancho;
+  color:white;
+}
+.badges{
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 0;
+  font-size: 30px;
+  font-family: Rancho;
+  color:white;
+}*/
+
+@media only screen and (max-width: 700px){
+  html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  background: url("../assets/forest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 80vw;
+  height: 80vh;
+  align-items: top;
+  justify-content: top;
+  margin-left: 10vw;
+  margin-top: 12vh;
+  /*opacity: 0.2;*/
+  background: rgba(205,255,255,0.1)
+}
+
+.rank{
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 0;
+  font-size: 18px;
+  font-family: Rancho;
+  color:white;
+  /*background: rgba(205,206,255,0.1)*/
+}
+.name{
+  display: flex;
+  margin-left: 4vw;
+  margin-right: 0;
+  font-size: 18px;
+  font-family: Rancho;
+  color:white;
+}
+.score{
+  display: flex;
+  margin-left: 4vw;
+  margin-right: 0;
+  font-size: 18px;
+  font-family: Rancho;
+  color:white;
+}
+.time{
+  display: flex;
+  margin-left: 4vw;
+  margin-right: 0;
+  font-size: 18px;
+  font-family: Rancho;
+  color:white;
+}
+.badges{
+  display: flex;
+  margin-left: 4vw;
+  margin-right: 0;
+  font-size: 18px;
+  font-family: Rancho;
+  color:white;
+}
+}
