@@ -16,15 +16,16 @@ body{
 .container{
   display: flex;
   flex-direction: row;
-  background-color: black;
+  /*background-color: black;*/
   width: 50vw;
   height: 80vh;
   align-items: top;
   justify-content: top;
-  margin-left: 25vw;
+  margin-left: 15vw;
   margin-top: 12vh;
   /*opacity: 0.2;*/
-  background: rgba(205,255,255,0.1)
+  /*background: rgba(205,255,255,0.1)*/
+
 }
 
 .rank{
@@ -87,20 +88,20 @@ body{
 .container{
   display: flex;
   flex-direction: row;
-  background-color: black;
+  /*background-color: black;
   width: 80vw;
   height: 80vh;
   align-items: top;
-  justify-content: top;
+  justify-content: top;*/
   margin-left: 10vw;
-  margin-top: 12vh;
+  /*margin-top: 12vh;*/
   /*opacity: 0.2;*/
-  background: rgba(205,255,255,0.1)
+  /*background: rgba(205,255,255,0.1)*/
 }
 
 .rank{
   display: flex;
-  margin-left: 3vw;
+  margin-left: 2vw;
   margin-right: 0;
   font-size: 18px;
   font-family: Rancho;
@@ -124,7 +125,7 @@ body{
   color:white;
 }
 .time{
-  display: flex;
+  display:flex;
   margin-left: 4vw;
   margin-right: 0;
   font-size: 18px;
