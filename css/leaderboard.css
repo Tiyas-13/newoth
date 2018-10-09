@@ -23,7 +23,7 @@ table tr td,table tr td{
 thead tr{
   font-family: Rancho;
   color: black;
-  font-size: 5vh;
+  font-size: 3vh;
   background-color: rgba(56,255,255,0.1)
 }
 /*@media only screen and (max-width: 700px){
