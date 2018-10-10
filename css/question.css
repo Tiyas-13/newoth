@@ -24,20 +24,23 @@ html,body{
 }
 
 .question-div{
-  background: url('../assets/qf4.png');
+  background: url('../assets/queform.png');
+  background-clip: border-box;
   margin: 1vh auto 1vh auto;
   height: 100%;
   padding-top: 10vh;
+  padding-bottom: 5vh;
   width: 100%;
   text-align: center;
   align-items: center;
   font-size: 18px;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: inherit;
   background-repeat: no-repeat;
   color: white;
 }
+
 
 .question-div p {
   margin-left: 5vh;
@@ -51,7 +54,7 @@ html,body{
 
 
 input[type=text] {
-  width: 55%;
+  width: 40%;
   padding: 12px 20px;
   margin: 5px auto 5px auto;
   display: inline-block;
@@ -71,7 +74,7 @@ input[type=submit] {
     font-size: 16px;
 }
 
-@media only screen and (max-width : 470px){
+/* @media only screen and (max-width : 470px){
   .question-div{
     background: url('../assets/qf4.png');
     height: 100%;
@@ -85,7 +88,7 @@ input[type=submit] {
     background-attachment: inherit;
     text-align: center;
   }
-}
+} */
 
 
 @media only screen and (max-width: 700px){
