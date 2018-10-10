@@ -14,15 +14,25 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
+.container{
+    margin-top: 2vh;
+   height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+}
 table tr td,table tr td{
   text-align: center;
   font-family: Rancho;
-  color: black;
+  color: white;
   background-color: rgba(205,255,255,0.1)
 }
 thead tr{
   font-family: Rancho;
-  color: black;
+  color: #ffb90c;
   font-size: 3vh;
   background-color: rgba(56,255,255,0.1)
 }
