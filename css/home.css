@@ -62,6 +62,7 @@ body{
     margin-left: 1vw;
     margin-top: -30vh;
     background-color:rgba(0,0,0,0);
+    border-radius: 12px;
     
 }
 .facebook {
@@ -69,6 +70,10 @@ body{
     margin-left: 5px;
     margin-top: -30vh;
     background-color:rgba(0,0,0,0);
+    border-radius: 12px;
+}
+.google-small,.facebook-small{
+  display: none;
 }
 
 /*.google img{
@@ -142,17 +147,24 @@ body{
   color: white;
   font-family: Rancho;
 }
-.google{
+.google,.facebook{
+  display: none;
+}
+.google-small{
   display:flex;
   margin-left: 5vw;
   margin-top: -25vh; 
+  background-color:rgba(0,0,0,0);
+  border-radius: 12px;
 }
-.facebook{
+.facebook-small{
   display:flex;
   margin-left:5px;
   margin-top: -25vh;
+  background-color:rgba(0,0,0,0);
+  border-radius: 12px;
 }
-.google img{
+/*.google img{
   height: 20px; 
   width: 30px;
 }
