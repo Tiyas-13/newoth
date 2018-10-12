@@ -13,19 +13,31 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+}
+.heading{
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 .container{
    height: 80vh;
     width: 80vw;
     margin: 5vh;
+    margin-top: -3vh;
     margin-left: 10vw;
-    align-items: center;
-    justify-content: center;
     overflow: auto;
     background-color: rgba(0,0,0,0.5);
-    
+   }
+ h1{
+  display: flex;
+  font-size: 5vh;
+  color: red;
+  font-family: Rancho;
 }
+
 table tr td,table tr td{
   text-align: center;
   font-family: Rancho;
@@ -36,7 +48,7 @@ table tr td,table tr td{
 thead tr{
   font-family: Rancho;
   color: #ffb90c;
-  font-size: 4vh;
+  font-size: 27px;
   background-color: rgba(56,255,255,0.1)
 }
 /*@media only screen and (max-width: 700px){
